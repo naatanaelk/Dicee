@@ -19,10 +19,10 @@ image2.setAttribute("src", diceImage2);
 //determine winner
 if(randomNumber1>randomNumber2){
     document.getElementsByTagName("h1")[0].innerHTML = "Player 1 Wins!";
-    document.getElementsByClassName("player1")[0].innerHTML = "👑Player 1👑";
+    document.getElementsByClassName("player1")[0].innerHTML = "👑<br>Player 1";
 }else if(randomNumber1<randomNumber2){
     document.getElementsByTagName("h1")[0].innerHTML = "Player 2 Wins!";
-    document.getElementsByClassName("player2")[0].innerHTML = "👑Player 2👑";
+    document.getElementsByClassName("player2")[0].innerHTML = "👑<br>Player 2";
 }else if(randomNumber1===randomNumber2){
     document.getElementsByTagName("h1")[0].innerHTML = "It's a Draw...";
 }
